@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рефераты | На заказ👍</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="C:\Users\user\Desktop\vs\Ref\картиники\1.jpg">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Написание рефератов, курсовых, практик</h1>
+            <h2>-без посредников, <a href="">100% гарантия</a>, опытные специалисты.</h2>
+        </div>
+        <form class="form">
+            <select name="work">
+                <option>Реферат</option>
+                <option>Курсовая</option>
+                <option>Практика</option>
+                <option>Дипломы</option>
+                <option>Отчеты</option>
+                <option>Контрольные</option>
+                <option>Призентации</option>
+            </select>
+            <div class="input-group">
+                <label>Предмет:</label>
+                <input type="text" name="Predmet" placeholder="Введите предмет">
+            </div>
+            <div class="input-group">
+                <label>Срок до:</label>
+                <input type="date" id="date-input" name="date-input">
+            </div>
+            <div class="input-group">
+                <label>Описание работы:</label>
+                <textarea name="rabota" placeholder="Опишите вашу работу"></textarea>
+            </div>
+            <div class="input-group">
+                <label>Ваш E-Mail или контактный номер:</label>
+                <input type="text" name="contact" placeholder="Введите контактные данные">
+            </div>
+            <button type="button" class="submit-button" onclick="openModal()">Заказать</button>
+        </form>
+    </div>
+
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <p>Для дальнейшего оформления заказа напишите на мой WhatsApp: <a href="https://wa.me/79098625878" target="_blank">+79098625878</a>, или же в Telegram по тому же номеру.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
